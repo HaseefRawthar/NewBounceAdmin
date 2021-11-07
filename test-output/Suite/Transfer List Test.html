@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>TestNG:  Transfer List Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Transfer List Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 18 12:01:31 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59366 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.editNursery()'><b>editNursery</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>12</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByActiveStatus()'><b>filterByActiveStatus</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>14</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByCountry()'><b>filterByCountry</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByDate()'><b>filterByDate</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>7</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.filterByDate()'><b>filterByDate</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>3</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByEmail()'><b>filterByEmail</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByNurseryName()'><b>filterByNurseryName</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByNurseryName()'><b>filterByNurseryName</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.filterByNurseryName()'><b>filterByNurseryName</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByPayMode()'><b>filterByPayMode</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>70</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByPaymentGateway()'><b>filterByPaymentGateway</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>14</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByPaymentGatewayRefId()'><b>filterByPaymentGatewayRefId</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByPaymentMethod()'><b>filterByPaymentMethod</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>7</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByPhoneCode()'><b>filterByPhoneCode</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>5</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.filterByPhoneNumber()'><b>filterByPhoneNumber</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByReconciliationStatus()'><b>filterByReconciliationStatus</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>11</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.filterByStatus()'><b>filterByStatus</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>5</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByTransactionStatus()'><b>filterByTransactionStatus</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>46</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.filterByTransferStatus()'><b>filterByTransferStatus</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>9</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.LogIn.invalidCredentials()'><b>invalidCredentials</b><br>Test class: com.bounceadmin.testscript.LogIn</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.LogIn@73ee04c8</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.LogIn.invalidEmail()'><b>invalidEmail</b><br>Test class: com.bounceadmin.testscript.LogIn</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.LogIn@73ee04c8</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.AddNursery.listandViewNurseryDetails()'><b>listandViewNurseryDetails</b><br>Test class: com.bounceadmin.testscript.AddNursery</td>
+<td></td>
+<td>3</td>
+<td>com.bounceadmin.testscript.AddNursery@31e5415e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.LogIn.noCredentials()'><b>noCredentials</b><br>Test class: com.bounceadmin.testscript.LogIn</td>
+<td></td>
+<td>1</td>
+<td>com.bounceadmin.testscript.LogIn@73ee04c8</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.LogIn.validLoginAsDarisniAdmin()'><b>validLoginAsDarisniAdmin</b><br>Test class: com.bounceadmin.testscript.LogIn</td>
+<td></td>
+<td>12</td>
+<td>com.bounceadmin.testscript.LogIn@73ee04c8</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.LogIn.validLoginAsDarisniSuperAdmin()'><b>validLoginAsDarisniSuperAdmin</b><br>Test class: com.bounceadmin.testscript.LogIn</td>
+<td></td>
+<td>10</td>
+<td>com.bounceadmin.testscript.LogIn@73ee04c8</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.AddNursery.verifyAddNurserywithAllFields()'><b>verifyAddNurserywithAllFields</b><br>Test class: com.bounceadmin.testscript.AddNursery</td>
+<td></td>
+<td>17</td>
+<td>com.bounceadmin.testscript.AddNursery@31e5415e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.AddNursery.verifyAddNurserywithMnadatoryOnly()'><b>verifyAddNurserywithMnadatoryOnly</b><br>Test class: com.bounceadmin.testscript.AddNursery</td>
+<td></td>
+<td>12</td>
+<td>com.bounceadmin.testscript.AddNursery@31e5415e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.AddNursery.verifyMandatoryMsgVisible()'><b>verifyMandatoryMsgVisible</b><br>Test class: com.bounceadmin.testscript.AddNursery</td>
+<td></td>
+<td>5</td>
+<td>com.bounceadmin.testscript.AddNursery@31e5415e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifyPrintClickCancel()'><b>verifyPrintClickCancel</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifyPrintClickCancel()'><b>verifyPrintClickCancel</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifyPrintClickPrint()'><b>verifyPrintClickPrint</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>3</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifyPrintClickPrint()'><b>verifyPrintClickPrint</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>2</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifySortForAddition()'><b>verifySortForAddition</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForAmount()'><b>verifySortForAmount</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifySortForBankName()'><b>verifySortForBankName</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifySortForBounceCommision()'><b>verifySortForBounceCommision</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForBounceId()'><b>verifySortForBounceId</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.verifySortForCountry()'><b>verifySortForCountry</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.verifySortForCreatedDate()'><b>verifySortForCreatedDate</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForCustomerRefId()'><b>verifySortForCustomerRefId</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifySortForDeduction()'><b>verifySortForDeduction</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForGatewayRefId()'><b>verifySortForGatewayRefId</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.verifySortForNurseryEmail()'><b>verifySortForNurseryEmail</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.verifySortForNurseryName()'><b>verifySortForNurseryName</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>7</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForNurseryName()'><b>verifySortForNurseryName</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForPayDate()'><b>verifySortForPayDate</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForPayGateway()'><b>verifySortForPayGateway</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForPayMethod()'><b>verifySortForPayMethod</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.PaymentTransactionsList.verifySortForPayMode()'><b>verifySortForPayMode</b><br>Test class: com.bounceadmin.testscript.PaymentTransactionsList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.PaymentTransactionsList@3fb1549b</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.ListNursery.verifySortForStatus()'><b>verifySortForStatus</b><br>Test class: com.bounceadmin.testscript.ListNursery</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.ListNursery@6d3a388c</td></tr>
+<tr>
+<td title='com.bounceadmin.testscript.TransferList.verifySortForTransferReqId()'><b>verifySortForTransferReqId</b><br>Test class: com.bounceadmin.testscript.TransferList</td>
+<td></td>
+<td>6</td>
+<td>com.bounceadmin.testscript.TransferList@49c7b90e</td></tr>
+</table><p>
+</body>
+</html>

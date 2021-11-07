@@ -1,0 +1,105 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test name="Login Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.LogIn">
+      </class>
+    </classes>
+  </test>
+   <test name="Dashboard" >
+    <classes>
+      <class name="com.bounceadmin.testscript.Dashboard">
+      </class>
+    </classes>
+  </test>
+   <test name="Add Nursery Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.AddNursery">
+      </class>
+    </classes>
+  </test>
+   <test name="List Payment Transaction Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.PaymentTransactionsList">
+      </class>
+    </classes>
+  </test>
+  <test name="Add Staff Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.AddStaff">
+      </class>
+    </classes>
+  </test>
+  <test name="List Staff Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.StaffList">
+      </class>
+    </classes>
+  </test>
+   <test name="Actiity Report Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.ActivityReport">
+      </class>
+    </classes>
+  </test>
+   <test name="Lvc Report Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.LvcReport">
+      </class>
+    </classes>
+  </test>
+   <test name="Resource Detail Report Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.ResourceDetailReport">
+      </class>
+    </classes>
+  </test>
+   <test name="active students" >
+    <classes>
+      <class name="com.bounceadmin.testscript.ActiveStudents">
+      </class>
+    </classes>
+  </test>
+   <test name="sales commission" >
+    <classes>
+      <class name="com.bounceadmin.testscript.SalesCommissionReport">
+      </class>
+    </classes>
+  </test>
+   <test name="sales and collection" >
+    <classes>
+      <class name="com.bounceadmin.testscript.SalesAndCollectionReport">
+      </class>
+    </classes>
+  </test>
+   <test name="Notification Template Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.NotificationTemplate">
+      </class>
+    </classes>
+  </test>
+   <test name="OTP List Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.OTPList">
+      </class>
+    </classes>
+  </test>
+  <test name="tax" >
+    <classes>
+      <class name="com.bounceadmin.testscript.Tax">
+      </class>
+    </classes>
+  </test>
+  <test name="payment gateway" >
+    <classes>
+      <class name="com.bounceadmin.testscript.PaymentGateway">
+      </class>
+    </classes>
+  </test>
+    <test name="List Nursery Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.ListNursery">
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+   <test name="Add Nursery Test" >
+    <classes>
+      <class name="com.bounceadmin.testscript.AddNursery">
+      <methods>
+      <include name="verifyMandatoryMsgVisible"></include>
+       <include name="verifyAddNurserywithMnadatoryOnly"></include>
+      </methods>
+      </class>
+      <class name="com.bounceadmin.testscript.ListNursery">
+       <methods>
+      <include name="filterByCountry"></include>
+      </methods>
+      </class>
+       <class name="com.bounceadmin.testscript.AddStaff">
+      <methods>
+      <include name="verifyMandatoryMsg"></include>
+      <include name="addStaffAsBounceAdmin"></include>
+      </methods>
+      </class>
+     
+    </classes>
+  </test>
+
+
+   </suite>
